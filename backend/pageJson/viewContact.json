@@ -1,0 +1,47 @@
+{
+    "title": "Contact",
+    "description": "List of Contacts",
+    "pageType": "view",
+    "sendIdWithCreate": true,
+    "urlFields": ["_id"],
+    "fields": [{
+        "name": "Name",
+        "isSort": "",
+        "tableRef": "name"
+    }, {
+        "name": "Email",
+        "isSort": "",
+        "tableRef": "email"
+    }, {
+        "name": "Subject",
+        "isSort": "",
+        "tableRef": "subject"
+    }],
+    "action": [{
+        "name": "view",
+        "icon": "fa-eye",
+        "buttonClass": "btn-primary",
+        "type": "page",
+        "action": "editContact",
+        "fieldsToSend": {
+            "_id": "_id"
+        }
+    }],
+    "button": [{
+        "name": "Excel Export",
+        "icon": "print",
+        "class": "btn-danger",
+        "type": "redirect",
+        "action": "excelexport"
+    }, {
+        "name": "Upload Excel",
+        "icon": "delete",
+        "class": "btn-warning",
+        "type": "redirect",
+        "action": "uploadcsv"
+    }],
+    "apiCall": {
+        "url": "Contact/search",
+        "params": "_id"
+    }
+}
