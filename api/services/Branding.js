@@ -79,10 +79,10 @@ var schema = new Schema({
         type: String,
         default: ""
     }],
-    includeBrandIdentity: [{
+    includeBrandIdentity: {
         type: String,
         default: ""
-    }]
+    }
 });
 
 schema.plugin(deepPopulate, {});
