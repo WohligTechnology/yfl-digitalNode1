@@ -1,15 +1,12 @@
 var schema = new Schema({
   firstName: {
     type: String,
-    required: true
   },
   middleName: {
     type: String,
-    required: true
   },
   lastName: {
     type: String,
-    required: true
   },
   // mobileNumber : {
   //  type : Number,
@@ -17,7 +14,6 @@ var schema = new Schema({
   // },
   companyName: {
     type: String,
-    required: true
   },
   business: {
     type: String,
@@ -31,10 +27,10 @@ var schema = new Schema({
     type: String,
     default: ""
   },
-  requirements: [{
+  requirements: {
     type: String,
     default: ""
-  }],
+  },
   responsiveDesign: {
     type: Boolean,
     default: false
@@ -72,10 +68,10 @@ var schema = new Schema({
     type: String,
     default: ""
   },
-  websiteFeatures: [{
+  websiteFeatures: {
     type: String,
     default: ""
-  }],
+  },
   blog: {
     type: String,
     default: ""
@@ -116,10 +112,10 @@ var schema = new Schema({
     type: Boolean,
     default: false
   },
-  contentType: [{
+  contentType: {
     type: String,
     default: ""
-  }],
+  },
   ecommerceCapability: {
     type: Boolean,
     default: false

@@ -23,14 +23,14 @@ var schema = new Schema({
         type: String,
         default: ""
     },
-    accomplish: [{
+    accomplish: {
         type: String,
         default: ""
-    }],
-    characteristics: [{
+    },
+    characteristics: {
         type: String,
         default: ""
-    }],
+    },
     gender: {
         type: Number,
         default: 0
@@ -59,14 +59,14 @@ var schema = new Schema({
         type: String,
         default: ""
     },
-    logoType: [{
+    logoType: {
         type: String,
         default: ""
-    }],
-    brandFont: [{
+    },
+    brandFont: {
         type: String,
         default: ""
-    }],
+    },
     brandOrigin: {
         type: String,
         default: ""
@@ -75,10 +75,10 @@ var schema = new Schema({
         type: String,
         default: ""
     },
-    brandIdentity: [{
+    brandIdentity: {
         type: String,
         default: ""
-    }],
+    },
     includeBrandIdentity: {
         type: String,
         default: ""

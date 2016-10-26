@@ -1,0 +1,465 @@
+{
+    "title": "Edit Website",
+    "name": "Website",
+    "jsonPage": "viewWebsite",
+    "desciption": "",
+    "pageType": "edit",
+    "urlFields": ["_id"],
+    "fields": [{
+        "name": "First Name",
+        "type": "text",
+        "tableRef": "firstName",
+        "placeholder": "",
+        "validation": ["required", "trim"],
+        "id": "firstName",
+        "url": ""
+    }, {
+        "name": "Middle Name",
+        "type": "text",
+        "tableRef": "middleName",
+        "placeholder": "",
+        "id": "middleName",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Last Name",
+        "type": "text",
+        "tableRef": "lastName",
+        "placeholder": "",
+        "id": "lastName",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Company",
+        "type": "text",
+        "tableRef": "companyName",
+        "placeholder": " ",
+        "id": "companyName",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "What is the business and how will your website advance it?",
+        "type": "text",
+        "tableRef": "business",
+        "placeholder": " ",
+        "id": "business",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "What message is the website supposed to convey?",
+        "type": "text",
+        "tableRef": "message",
+        "placeholder": " ",
+        "id": "message",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Who is the primary audience for the website (demographics)?",
+        "type": "text",
+        "tableRef": "demographics",
+        "placeholder": " ",
+        "id": "demographics",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "What is it that you require? If it’s a mobile app or social media, please share specific requirements.",
+        "type": "tags",
+        "tableRef": "requirements",
+        "placeholder": "",
+        "id": "requirements",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "fieldType": "array",
+        "dropDownType": "multiple",
+        "dropDown": ["Mobile App", "Social Medial Integration", "Website Design", "Website Coding"]
+    }, {
+        "name": "Do you need a website that can work smoothly on mobile devices like Samsung Galaxy (Android) and the iPhone (iOS)? This means the site has to be a ‘Responsive Design’ which adjusts dynamically to various screen sizes and resolutions.",
+        "type": "tags",
+        "tableRef": "responsiveDesign",
+        "placeholder": "",
+        "id": "responsiveDesign",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "Do you need a catalogue for the site?",
+        "type": "tags",
+        "tableRef": "catalogue",
+        "placeholder": "",
+        "id": "catalogue",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "Do you need a copywriter?",
+        "type": "tags",
+        "tableRef": "copywriter",
+        "placeholder": "",
+        "id": "copywriter",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "If you are using existing copy on your current website, will it need to be modified in any way?",
+        "type": "tags",
+        "tableRef": "modifiedWebsite",
+        "placeholder": "",
+        "id": "modifiedWebsite",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "Do you need a web domain name and hosting for the website?",
+        "type": "tags",
+        "tableRef": "webDomain",
+        "placeholder": "",
+        "id": "webDomain",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "Would you like a Static or Dynamic website?",
+        "type": "tags",
+        "tableRef": "staticDynamic",
+        "placeholder": "",
+        "id": "staticDynamic",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "What do you want the user to do when they get to your site?",
+        "type": "text",
+        "tableRef": "sitePurpose1",
+        "placeholder": "",
+        "id": "sitePurpose1",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "What are your goals for the website in terms of visitor actions?",
+        "type": "text",
+        "tableRef": "sitePurpose2",
+        "placeholder": "",
+        "id": "sitePurpose2",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "What do you think your site user should accomplish on your site?",
+        "type": "text",
+        "tableRef": "sitePurpose3",
+        "placeholder": "",
+        "id": "sitePurpose3",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Which of the following sections/features would you want in the site (other than Home, About and Contact)",
+        "type": "tags",
+        "tableRef": "websiteFeatures",
+        "placeholder": "",
+        "id": "websiteFeatures",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "fieldType": "array",
+        "dropDownType": "multiple",
+        "dropDown": ["Catalog", "Gallery / Slide Show", "News", "Events Calendar", "Press", "Support user login", "Based on type of user, have different functionalists (Portals)",
+            "Feedback Form", "Contact Form", "Login", "Some specific unique/custom functionality."
+        ]
+    }, {
+        "name": "Would your website have a blog?",
+        "type": "tags",
+        "tableRef": "blog",
+        "placeholder": "",
+        "id": "blog",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "Would your website require e-commerce?",
+        "type": "tags",
+        "tableRef": "ecommerce",
+        "placeholder": "",
+        "id": "ecommerce",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "Do you expect the site to send mailers / email automatically?",
+        "type": "tags",
+        "tableRef": "mailer",
+        "placeholder": "",
+        "id": "mailer",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "Do you want people to be able to rate things on your site?",
+        "type": "tags",
+        "tableRef": "rating",
+        "placeholder": "",
+        "id": "rating",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "Ideally if you could, please send us a sitemap of the website.",
+        "type": "text",
+        "tableRef": "siteMap",
+        "placeholder": "",
+        "id": "siteMap",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Would you like your work/products to be professionally shot?",
+        "type": "tags",
+        "tableRef": "professionallyShot",
+        "placeholder": "",
+        "id": "professionallyShot",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "How will you attract visitors to your site? Are you looking for Search Engine Optimisation/Google rankings (SEO)?",
+        "type": "tags",
+        "tableRef": "seo",
+        "placeholder": "",
+        "id": "seo",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "Are you willing to spend extra for advanced SEO?",
+        "type": "tags",
+        "tableRef": "advanceSeo",
+        "placeholder": "",
+        "id": "advanceSeo",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "If you plan to update content, do you have content writers and people who can create content (including images) for you?",
+        "type": "tags",
+        "tableRef": "contentWriter",
+        "placeholder": "",
+        "id": "contentWriter",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "Would your content writers happen to know HTML?",
+        "type": "tags",
+        "tableRef": "contentWriterHtml",
+        "placeholder": "",
+        "id": "contentWriterHtml",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "What kind of content do you plan to update?",
+        "type": "tags",
+        "tableRef": "contentType",
+        "placeholder": "",
+        "id": "contentType",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "fieldType": "array",
+        "dropDownType": "multiple",
+        "dropDown": ["Simple text with formatting, colour, fonts & links", "Content, but with different formatting styles", "Documents",
+            "Images", "Complex Animation / Effects / Graphics"
+        ]
+    }, {
+        "name": "Do you intend to have any financial transactions online now or in the near future? If so, would you like an e-commerce capability on your website?",
+        "type": "tags",
+        "tableRef": "ecommerceCapability",
+        "placeholder": "",
+        "id": "ecommerceCapability",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "What is the duration you need this site to be up, before you think you need to revamp or change it in a major way?",
+        "type": "text",
+        "tableRef": "duration",
+        "placeholder": "",
+        "id": "duration",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Are you willing to consider spending on Online Marketing, like via Facebook or Google Ad words?",
+        "type": "tags",
+        "tableRef": "onlineMarketing",
+        "placeholder": "",
+        "id": "onlineMarketing",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "How frequently will you expect to update it?",
+        "type": "text",
+        "tableRef": "update",
+        "placeholder": "",
+        "id": "update",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Do different people have different Roles/Permissions to manage the site?",
+        "type": "tags",
+        "tableRef": "role",
+        "placeholder": "",
+        "id": "role",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "All sites are built for English audiences, do you wish additional languages?",
+        "type": "tags",
+        "tableRef": "additionalLanguage",
+        "placeholder": "",
+        "id": "additionalLanguage",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Yes", "No"]
+    }, {
+        "name": "What is the tone of the website?",
+        "type": "text",
+        "tableRef": "tone",
+        "placeholder": "",
+        "id": "tone",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Favorite Sites: Please list 3-5 websites you like. Include the URL, what you like about each site, and what you would improve upon?",
+        "type": "text",
+        "tableRef": "favouriteSite",
+        "placeholder": "",
+        "id": "favouriteSite",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Least favorite sites: Please list 3-5 websites you don’t like, include the URL. What don’t you like about these sites? What redeeming qualities do they have?",
+        "type": "text",
+        "tableRef": "leastFavouriteSite",
+        "placeholder": "",
+        "id": "leastFavouriteSite",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Selling points: tell us why you, your products or your services are better than your competition.",
+        "type": "text",
+        "tableRef": "sellingPoint",
+        "placeholder": "",
+        "id": "sellingPoint",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Site no no’s: Do you have any definite remarks on what you don’t want to have on your website?",
+        "type": "text",
+        "tableRef": "siteNo",
+        "placeholder": "",
+        "id": "siteNo",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Please list 5 (or more) adjectives that you think describe your company or should describe your company in order of relevance / importance.",
+        "type": "text",
+        "tableRef": "adjective",
+        "placeholder": "",
+        "id": "adjective",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Competitors: are there any websites that you would consider your “competition”?",
+        "type": "text",
+        "tableRef": "competitors",
+        "placeholder": "",
+        "id": "competitors",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Is there something in particular you love and want your website to include?",
+        "type": "text",
+        "tableRef": "particular",
+        "placeholder": "",
+        "id": "particular",
+        "validation": ["required", "trim"],
+        "url": ""
+    }, {
+        "name": "Would you like a more “corporate” (template based) site such as avasara.in or a more experimental site where almost all pages have a different feel, such as wrap.co.in?",
+        "type": "tags",
+        "tableRef": "corporate",
+        "placeholder": "",
+        "id": "corporate",
+        "validation": ["required", "trim"],
+        "url": "",
+        "dropDownField": "",
+        "dropDownType": "single",
+        "dropDown": ["Corporate", "Experimental"]
+    }],
+    "action": [{
+        "name": "submit",
+        "action": "submitWebsite",
+        "stateName": {
+            "page": "page",
+            "json": {
+                "id": "viewWebsite"
+            }
+        }
+    }, {
+        "name": "cancel",
+        "sideMenuRedirect": true,
+        "stateName": {
+            "page": "page",
+            "json": {
+                "id": "viewWebsite"
+            }
+        }
+    }],
+    "apiCall": {
+        "url": "Website/save",
+        "params": "_id"
+    },
+    "preApi": {
+        "url": "Website/getOne",
+        "params": "_id"
+    }
+
+}

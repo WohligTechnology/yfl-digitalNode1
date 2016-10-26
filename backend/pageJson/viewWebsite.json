@@ -1,0 +1,69 @@
+{
+    "title": "Website",
+    "description": "Website Lists",
+    "pageType": "view",
+    "sendIdWithCreate": true,
+    "urlFields": ["_id"],
+    "fields": [{
+        "name": "First Name",
+        "isSort": "",
+        "tableRef": "firstName"
+    }, {
+        "name": "Middle Name",
+        "isSort": "",
+        "tableRef": "middleName"
+    }, {
+        "name": "Last Name",
+        "isSort": "",
+        "tableRef": "lastName"
+    }, {
+        "name": "Company Name",
+        "isSort": "",
+        "tableRef": "companyName"
+    }],
+    "action": [{
+        "name": "edit",
+        "icon": "fa-pencil",
+        "buttonClass": "btn-primary",
+        "type": "page",
+        "action": "editWebsite",
+        "fieldsToSend": {
+            "_id": "_id"
+        }
+    }, {
+        "name": "delete",
+        "icon": "fa-trash",
+        "buttonClass": "btn-danger",
+        "type": "apiCallConfirm",
+        "title": "Delete Website",
+        "content": "Are you sure you want to delete Website?",
+        "api": "Website/delete",
+        "fieldsToSend": {
+            "name": "_id",
+            "value": "_id"
+        }
+    }],
+    "button": [{
+        "name": "Excel Export",
+        "icon": "print",
+        "class": "btn-danger",
+        "type": "redirect",
+        "action": "excelexport"
+    }, {
+        "name": "Upload Excel",
+        "icon": "delete",
+        "class": "btn-warning",
+        "type": "redirect",
+        "action": "uploadcsv"
+    }, {
+        "name": "Create",
+        "icon": "plus",
+        "class": "btn-success",
+        "type": "page",
+        "action": "createWebsite"
+    }],
+    "apiCall": {
+        "url": "Website/search",
+        "params": "_id"
+    }
+}
