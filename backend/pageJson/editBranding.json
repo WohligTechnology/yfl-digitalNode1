@@ -39,114 +39,76 @@
         "url": ""
     }, {
         "name": "Does your brand have a name?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "brandName",
         "placeholder": "",
         "id": "brandName",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "What have you set out to accomplish with your brand?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "accomplish",
         "placeholder": "",
         "id": "accomplish",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "fieldType": "array",
-        "dropDownType": "multiple",
-        "dropDown": ["Fulfill a need", "Spread happiness", "Promote healthy living", "Provide entertainment and enjoyment",
-            "Create understanding and awareness", "Inspire creativity and self-expression", "Take care of people", "Enable emotional connection"
-        ]
+        "url": ""
     }, {
         "name": "Which of the following characteristics best describe the personality you want your brand to have?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "characteristics",
         "placeholder": "",
         "id": "characteristics",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "fieldType": "array",
-        "dropDownType": "multiple",
-        "dropDown": ["Unconventional", "Practical", "Inventive", "Funny", "Leader", "Powerful", "Dependable", "Protective", "Creative", "Optimistic",
-            "Nurturing", "Realistic", "Adventurous", "Entertaining", "Imaginative", "Artistic", "Truthful", "Mischievous", "Ambitious", "Helpful",
-            "Innovative", "Functional", "Thoughtful", "Strong", "Wise", "Rebellious", "Liberating", "Romantic", "Enthusiastic", "Intimate", "Simple", "Brave",
-            "Honest"
-        ]
+        "url": ""
     }, {
         "name": "Do you see your Brand being more Feminine (1) or Masculine (10)?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "gender",
         "placeholder": "",
         "id": "gender",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        "url": ""
     }, {
         "name": "Do you see your Brand being Younger (1) or Mature (10)?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "ageType",
         "placeholder": "",
         "id": "ageType",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        "url": ""
     }, {
         "name": "Do you see your Brand being more Affordable (1) or Luxurious (10)?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "affordableLuxurious",
         "placeholder": "",
         "id": "affordableLuxurious",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        "url": ""
     }, {
         "name": "Do you see your Brand being more Classic (1) or Modern (10)?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "classicModern",
         "placeholder": "",
         "id": "classicModern",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        "url": ""
     }, {
         "name": "Do you see your Brand being more Playful (1) or Serious (10)?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "playfulSerious",
         "placeholder": "",
         "id": "playfulSerious",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        "url": ""
     }, {
         "name": "What do you want your customers to feel when interacting with the Brand? ",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "interactionBrand",
         "placeholder": "",
         "id": "interactionBrand",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "fieldType": "array",
-        "dropDownType": "multiple",
-        "dropDown": ["Happiness", "Surprise", "Inspiration", "Anxiety", "Temptation", "Relief", "Entertainment", "Empowerment",
-            "Nostalgia", "Provocation", "Some specific unique/custom functionality.", "Satisfaction"
-        ]
+        "url": ""
     }, {
         "name": "What colors do you associate with the brand?",
         "type": "text",
@@ -157,28 +119,20 @@
         "url": ""
     }, {
         "name": "What type of logo(s) do you prefer for the Brand? ",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "logoType",
         "placeholder": "",
         "id": "logoType",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "fieldType": "array",
-        "dropDownType": "multiple",
-        "dropDown": ["Symbol/Icon", "Word Mark", "Letter Mark", "Combination Mark", "Emblem"]
+        "url": ""
     }, {
         "name": "What font(s) do you prefer for the Brand?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "brandFont",
         "placeholder": "",
         "id": "brandFont",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "fieldType": "array",
-        "dropDownType": "multiple",
-        "dropDown": ["Classic", "Modern", "Script", "Hand Written", "Bold", "Customised"]
+        "url": ""
     }, {
         "name": "What are the brand’s origins? (How did it start, where did the idea come from, etc)",
         "type": "text",
@@ -197,16 +151,12 @@
         "url": ""
     }, {
         "name": "Where all do you intend to use your Brand identity to communicate with the world?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "brandIdentity",
         "placeholder": "",
         "id": "brandIdentity",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "fieldType": "array",
-        "dropDownType": "multiple",
-        "dropDown": ["Print", "Online (Website, Social Media, Email)", "Video", "Events and Experiences", "Mobile"]
+        "url": ""
     }, {
         "name": "Is there something in particular you love and want your brand identity to include?",
         "type": "text",

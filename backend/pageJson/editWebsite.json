@@ -63,82 +63,60 @@
         "url": ""
     }, {
         "name": "What is it that you require? If it’s a mobile app or social media, please share specific requirements.",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "requirements",
         "placeholder": "",
         "id": "requirements",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "fieldType": "array",
-        "dropDownType": "multiple",
-        "dropDown": ["Mobile App", "Social Medial Integration", "Website Design", "Website Coding"]
+        "url": ""
     }, {
         "name": "Do you need a website that can work smoothly on mobile devices like Samsung Galaxy (Android) and the iPhone (iOS)? This means the site has to be a ‘Responsive Design’ which adjusts dynamically to various screen sizes and resolutions.",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "responsiveDesign",
         "placeholder": "",
         "id": "responsiveDesign",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "Do you need a catalogue for the site?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "catalogue",
         "placeholder": "",
         "id": "catalogue",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "Do you need a copywriter?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "copywriter",
         "placeholder": "",
         "id": "copywriter",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "If you are using existing copy on your current website, will it need to be modified in any way?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "modifiedWebsite",
         "placeholder": "",
         "id": "modifiedWebsite",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "Do you need a web domain name and hosting for the website?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "webDomain",
         "placeholder": "",
         "id": "webDomain",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "Would you like a Static or Dynamic website?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "staticDynamic",
         "placeholder": "",
         "id": "staticDynamic",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "What do you want the user to do when they get to your site?",
         "type": "text",
@@ -165,62 +143,44 @@
         "url": ""
     }, {
         "name": "Which of the following sections/features would you want in the site (other than Home, About and Contact)",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "websiteFeatures",
         "placeholder": "",
         "id": "websiteFeatures",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "fieldType": "array",
-        "dropDownType": "multiple",
-        "dropDown": ["Catalog", "Gallery / Slide Show", "News", "Events Calendar", "Press", "Support user login", "Based on type of user, have different functionalists (Portals)",
-            "Feedback Form", "Contact Form", "Login", "Some specific unique/custom functionality."
-        ]
+        "url": ""
     }, {
         "name": "Would your website have a blog?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "blog",
         "placeholder": "",
         "id": "blog",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "Would your website require e-commerce?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "ecommerce",
         "placeholder": "",
         "id": "ecommerce",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "Do you expect the site to send mailers / email automatically?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "mailer",
         "placeholder": "",
         "id": "mailer",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "Do you want people to be able to rate things on your site?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "rating",
         "placeholder": "",
         "id": "rating",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "Ideally if you could, please send us a sitemap of the website.",
         "type": "text",
@@ -231,84 +191,60 @@
         "url": ""
     }, {
         "name": "Would you like your work/products to be professionally shot?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "professionallyShot",
         "placeholder": "",
         "id": "professionallyShot",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "How will you attract visitors to your site? Are you looking for Search Engine Optimisation/Google rankings (SEO)?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "seo",
         "placeholder": "",
         "id": "seo",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "Are you willing to spend extra for advanced SEO?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "advanceSeo",
         "placeholder": "",
         "id": "advanceSeo",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "If you plan to update content, do you have content writers and people who can create content (including images) for you?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "contentWriter",
         "placeholder": "",
         "id": "contentWriter",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "Would your content writers happen to know HTML?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "contentWriterHtml",
         "placeholder": "",
         "id": "contentWriterHtml",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "What kind of content do you plan to update?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "contentType",
         "placeholder": "",
         "id": "contentType",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "fieldType": "array",
-        "dropDownType": "multiple",
-        "dropDown": ["Simple text with formatting, colour, fonts & links", "Content, but with different formatting styles", "Documents",
-            "Images", "Complex Animation / Effects / Graphics"
-        ]
+        "url": ""
     }, {
         "name": "Do you intend to have any financial transactions online now or in the near future? If so, would you like an e-commerce capability on your website?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "ecommerceCapability",
         "placeholder": "",
         "id": "ecommerceCapability",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "What is the duration you need this site to be up, before you think you need to revamp or change it in a major way?",
         "type": "text",
@@ -319,15 +255,12 @@
         "url": ""
     }, {
         "name": "Are you willing to consider spending on Online Marketing, like via Facebook or Google Ad words?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "onlineMarketing",
         "placeholder": "",
         "id": "onlineMarketing",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "How frequently will you expect to update it?",
         "type": "text",
@@ -338,26 +271,20 @@
         "url": ""
     }, {
         "name": "Do different people have different Roles/Permissions to manage the site?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "role",
         "placeholder": "",
         "id": "role",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "All sites are built for English audiences, do you wish additional languages?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "additionalLanguage",
         "placeholder": "",
         "id": "additionalLanguage",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Yes", "No"]
+        "url": ""
     }, {
         "name": "What is the tone of the website?",
         "type": "text",
@@ -424,15 +351,12 @@
         "url": ""
     }, {
         "name": "Would you like a more “corporate” (template based) site such as avasara.in or a more experimental site where almost all pages have a different feel, such as wrap.co.in?",
-        "type": "tags",
+        "type": "textarea",
         "tableRef": "corporate",
         "placeholder": "",
         "id": "corporate",
         "validation": ["required", "trim"],
-        "url": "",
-        "dropDownField": "",
-        "dropDownType": "single",
-        "dropDown": ["Corporate", "Experimental"]
+        "url": ""
     }],
     "action": [{
         "name": "submit",
