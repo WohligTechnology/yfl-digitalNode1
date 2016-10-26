@@ -20,8 +20,8 @@ var schema = new Schema({
         required: true
     },
     brandName: {
-        type: Boolean,
-        default: false
+        type: String,
+        default: ""
     },
     accomplish: [{
         type: String,
