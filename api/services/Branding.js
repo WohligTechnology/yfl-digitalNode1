@@ -1,23 +1,15 @@
 var schema = new Schema({
     firstName: {
         type: String,
-        required: true
     },
     middleName: {
         type: String,
-        required: true
     },
     lastName: {
         type: String,
-        required: true
     },
-    // mobileNumber : {
-    //  type : Number,
-    //  required : true
-    // },
     companyName: {
         type: String,
-        required: true
     },
     brandName: {
         type: String,
