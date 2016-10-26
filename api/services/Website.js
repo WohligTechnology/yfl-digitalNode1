@@ -77,12 +77,12 @@ var schema = new Schema({
     default: ""
   }],
   blog: {
-    type: Boolean,
-    default: false
+    type: String,
+    default: ""
   },
   ecommerce: {
-    type: Boolean,
-    default: false
+    type: String,
+    default: ""
   },
   mailer: {
     type: Boolean,
@@ -187,7 +187,7 @@ var schema = new Schema({
 schema.plugin(deepPopulate, {});
 schema.plugin(uniqueValidator);
 schema.plugin(timestamps);
-module.exports = mongoose.model('Website-req', schema);
+module.exports = mongoose.model('Website', schema);
 
 var exports = _.cloneDeep(require("sails-wohlig-service")(schema));
 var model = {};
