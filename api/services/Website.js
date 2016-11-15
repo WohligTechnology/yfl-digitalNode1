@@ -257,7 +257,7 @@ var model = {
             console.log(view);
             var helper = require('sendgrid').mail
             from_email = new helper.Email("no-reply@yogafoodlove.com")
-            to_email = new helper.Email("pooja@wohlig.com")
+            to_email = new helper.Email("jsw@yogafoodlove.com")
             subject = "YFL Digital (WEBSITE)"
             content = new helper.Content("text/html", view)
               // content = new helper.Content("text/html", "views/email/index.ejs")
