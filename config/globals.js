@@ -81,6 +81,7 @@ global["uid"] = require('rand-token').uid;
 global["request"] = require('request');
 global["mongoXlsx"] = require('mongo-xlsx');
 global["json2xls"] = require('json2xls');
+global["base64"] = require('base-64');
 
 // passport Globals
 global["passport"] = require('passport');

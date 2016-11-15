@@ -160,5 +160,7 @@ schema.plugin(timestamps);
 module.exports = mongoose.model('Coach', schema);
 
 var exports = _.cloneDeep(require("sails-wohlig-service")(schema, "specialisations coachingFocus"));
-var model = {};
+var model = {
+
+};
 module.exports = _.assign(module.exports, exports, model);
